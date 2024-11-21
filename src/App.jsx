@@ -105,7 +105,9 @@ const App = () => {
 
         {location && address && (
           <div className="mt-4">
-            <p className="text-sm">Location: {address}</p>
+            <p className="text-lg">
+              <span className="font-semibold">Location:</span> {address}
+            </p>
           </div>
         )}
 
